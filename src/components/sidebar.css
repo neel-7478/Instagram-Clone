@@ -1,0 +1,80 @@
+.side_badge{
+    position: fixed;
+    right: 600px;
+    top:130px;
+    cursor: pointer;
+}
+
+.side_txt{
+    position: fixed;
+    right: 500px;
+    top: 145px;
+}
+
+.side_user{
+    position: fixed;
+    right: 510px;
+    top: 170px;
+    font-weight: 200;
+}
+
+.side_button{
+    position: fixed;
+    right: 300px;
+    top: 150px;
+    color: blue;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.suggestions{
+    position: fixed;
+    /* position: relative; */
+    right: 550px;
+    top: 240px;
+    color: gray;
+    font-weight: 400;
+
+}
+.see{
+    position: fixed;
+    right: 300px;
+    top: 240px;
+    color: gray;
+    cursor: pointer;
+}
+
+.follow{
+    position: fixed;
+    /* position: relative; */
+    right: 650px;
+    top: 300px;
+}
+
+.follow_name{
+    position: fixed;
+    /* position: relative; */
+    right: 480px;
+    top: 300px;
+    cursor: pointer;
+}
+
+.follow_name :hover{
+    text-decoration: underline;
+}
+
+.follow_button{
+    position: fixed;
+    right: 300px;
+    top: 305px;
+    cursor: pointer;
+    color: blue;
+    font-weight: 600;
+}
+
+.followed_by{
+    position: fixed;
+    right: 410px;
+    top: 320px;
+    font-weight: 300;
+}

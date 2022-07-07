@@ -1,0 +1,43 @@
+.post_container {
+  max-width: 600px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin: 0px 350px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.post_header {
+  display: flex;
+}
+
+.post_header_txt {
+  margin: 15px 20px;
+}
+
+.content {
+  width: 100%;
+  object-fit: contain;
+}
+
+.like_logo {
+  width: 30px;
+  padding: 9px;
+  margin: 0 8px;
+}
+
+.comment_logo {
+  width: 35px;
+  padding: 5px;
+  margin: 0 3px;
+}
+
+.send_logo {
+  width: 30px;
+  padding: 5px;
+  margin: 0 5px;
+}
+.save_logo {
+  width: 35px;
+  margin: 0px 200px;
+}

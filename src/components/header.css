@@ -1,11 +1,11 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-/* .container {
+.container {
   display: flex;
+  top: 0px;
   border-bottom: 1px solid lightgrey;
+  position: sticky;
+  z-index: 1000000;
+  overflow: hidden;
+  background-color: white;
 }
 .app_header {
   background-color: white;
@@ -38,6 +38,9 @@
   font-size: 15px;
 }
 
+.icons {
+  display: flex;
+}
 .icons img {
   height: 30px;
   margin-top: 10px;
@@ -47,41 +50,4 @@
 
 .badge {
   margin-top: 20px;
-} */
-
-/* .avatar_container {
-  border: 1px solid lightgray;
-  display: flex;
-  width: 30%;
-  margin: 40px 350px;
-  border-radius: 8px;
-  background: white;
-} */
-/* .avatar {
-  vertical-align: middle;
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
-  padding: 10px;
-} */
-
-/* .post_container {
-  max-width: 600px;
-  border: 1px solid lightgray;
-  border-radius: 5px;
-  margin: 0px 350px;
 }
-
-.post_header {
-  display: flex;
-}
-
-.post_header_txt {
-  margin: 15px 20px;
-}
-
-.content{
-  width: 100%;
-  object-fit: contain;
-
-} */
