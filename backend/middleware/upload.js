@@ -1,6 +1,6 @@
 const GridFsStorage = require('multer-gridfs-storage');
 const multer = require("multer");
-const mongoURI = "mongodb://localhost:27017/instagram?readPreference=primary&directConnection=true&ssl=false"
+const mongoURI = "mongodb://localhost:27017/instagram"
 const storage = new GridFsStorage({
   url: mongoURI,
   file: (req, file) => {

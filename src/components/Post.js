@@ -5,7 +5,6 @@ import rita from "../images/ritabhari.jpg"
 import like from "../images/like_logo.png"
 import comment from "../images/comment_logo.png"
 import send from "../images/send.png"
-
 // import save from "../images/save_logo.png"
 import "./post.css"
 const Post = () => {
@@ -14,7 +13,7 @@ const Post = () => {
       const url = "http://localhost:5000/"
       const config = {
         headers: {
-          "Content-Type": "image/jpeg",
+          "Content-Type": "image/jpg",
         }
       }
       axios.get(url, config).then((response) => {
@@ -40,6 +39,7 @@ const Post = () => {
                             <img src={`http://localhost:5000/file/${item.filename}`} alt="pics" className='content' key={item._id}/>
                         )
                     })
+                   
                 }
                 <img className='like_logo' src={like} alt="" />
                 <img className='comment_logo' src={comment} alt="" />

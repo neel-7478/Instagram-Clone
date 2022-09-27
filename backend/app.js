@@ -8,10 +8,10 @@ const app = express();
 
 app.use(cors())
 app.use(bodyParser.json());
-// app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({ extended: false }));
 // Initializing gfs
 let gfs;
-const mongoURI = "mongodb://localhost:27017/instagram?readPreference=primary&directConnection=true&ssl=false";
+const mongoURI = "mongodb://localhost:27017/instagram";
 
 const conn = mongoose.createConnection(mongoURI);
 
@@ -41,6 +41,7 @@ app.get("/file/:filename", async (req, res) => {
         readStream.pipe(res);
     } catch (error) {
         res.send('file not found');
+        console.log(error)
     }
 })
 
